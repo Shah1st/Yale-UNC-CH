@@ -53,7 +53,7 @@ Added CosineLRScheduler for better training dynamics.
 - **Enhanced TTA**: Didn't really test thoroughly - insufficient experimentation to determine effectiveness
 
 ## Post-Processing Experiment Summary
-We tested multiple post-processing techniques to improve the baseline 25.6 MAE score. I tried to make bronze in a last few hours))
+I tested multiple post-processing techniques to improve the baseline 25.6 MAE score. I tried to make bronze in a last few hours))
 
 ### Approaches Tested
 - **Ensemble simulation** - Multi-model averaging
