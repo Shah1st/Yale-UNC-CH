@@ -45,11 +45,16 @@ Added CosineLRScheduler for better training dynamics.
 - **Augmentations**: Caused NaN issues on Kaggle T4 GPUs (possibly due to mixed precision instability with T4's limited numerical precision), slightly better results on Colab A100 where better numerical stability allowed augmentations to work
 - **Enhanced TTA**: Didn't really test thoroughly - insufficient experimentation to determine effectiveness
 
+## Resources
+
+- **Experiment Tracking**: [W&B Report](https://api.wandb.ai/links/shah1st-work-ua-igor-sikorsky-kyiv-polytechnic-institute/yhxiuioi)
+- **Model Weights & Submissions**: [Kaggle Dataset](https://www.kaggle.com/datasets/oleksandrkharytonov/yaleunc-ch-models/data)
+
 ## Repository Structure
 
 ```
-├── convnext_my_modif.py          # Main enhanced training script (Jupyter notebook)
-├── convnext_full_resolution_baseline.py  # Original baseline for comparison
+├── convnext_improved_baseline.ipynb          # Main enhanced training script (Jupyter notebook)
+├── convnext_full_resolution_baseline.ipynb  # Original baseline for comparison
 ├── _cfg.py                       # Configuration settings
 ├── _dataset.py                   # Data loading and preprocessing
 ├── _model.py                     # Model architecture and enhancements
