@@ -4,10 +4,6 @@ This repository contains my enhanced version of the ConvNeXt baseline for seismi
 
 **Note**: The competition dataset contains 400+GB of data including additional datasets. Due to computational resource limitations, I experimented with resizing approaches and trained most experiments on a 30% subset of the data.
 
-## Original Architecture
-
-The original ConvNeXt baseline uses a UNet architecture with a ConvNeXt encoder and standard decoder. The encoder backbone is pretrained on ImageNet and modified with custom stem layers to handle the rectangular seismic input shape through aggressive height downsampling. The decoder uses standard upsampling with skip connections. Training uses distributed setup with EMA, basic L1 loss, and simple flip augmentation. Test-time augmentation only applies flip transformation.
-
 
 ## Original Architecture
 
